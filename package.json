@@ -1,0 +1,23 @@
+{
+  "name": "md-editor",
+  "version": "1.0.0",
+  "description": "Markdown-Editor for WeChat Official Account Platform",
+  "main": "index.js",
+  "repository": "https://github.com/JxJayden/md-editor.git",
+  "author": "jayden <jxdjayden@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync start --files './' --server --no-notify",
+    "start": "browser-sync start --files './' --server --no-notify",
+    "serve": "browser-sync start --files './' --server --no-notify"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.0",
+    "color-themes-for-google-code-prettify": "^2.0.4",
+    "marked": "^0.3.19",
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
